@@ -1,9 +1,9 @@
-exports.socket = function $inject($io) {
+exports.socket = function $inject($io, $log) {
   return function() {
     $io.on('connection', function(socket){
-      console.log('a user connected');
+      $log.info('a user connected');
       socket.on('disconnect', function(){
-        console.log('user disconnected');
+        $log.info('user disconnected');
       });
 
       socket.on('chat message', function(msg){

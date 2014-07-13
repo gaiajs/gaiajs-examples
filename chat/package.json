@@ -1,7 +1,8 @@
 {
-  "name": "gaiajs-chat",
-  "description": "Full-Stack JavaScript with Gaiajs and koajs",
+  "name": "chat",
+  "description": "Gaiajs example with socket.io",
   "version": "0.0.1",
+  "private": true,
   "main": "index.js",
   "dependencies": {
     "coffee-script": "^1.7.1",
