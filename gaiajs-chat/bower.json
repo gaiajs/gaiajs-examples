@@ -1,0 +1,19 @@
+{
+  "name": "gaiajs-chat",
+  "main": "index.js",
+  "version": "0.0.0",
+  "authors": [
+    "eyolas <dtouzet@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "socket.io-client": "automattic/socket.io-client#~1.0.6"
+  }
+}
