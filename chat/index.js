@@ -1,3 +1,3 @@
 var gaiajs = require('gaiajs');
 
-new gaiajs(__dirname).start();
+new gaiajs().start();
